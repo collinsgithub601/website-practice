@@ -149,6 +149,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 input.textarea {
@@ -181,3 +182,64 @@ footer {
     padding: 0 16px;
 }
 
+/*small phones, tablets, large smartphones*/
+
+@media(max-width: 728px) { 
+.row {
+    flex-direction: column;
+}
+.home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__decription--button {
+max-width: 240px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28;
+}
+
+ul {
+    display: none;
+}
+.section__description {
+    flex-direction: column;
+}
+
+.section__description--wrapper {
+    width: 100%;
+}
+.about__img--wrapper {
+    width: 100%;
+}
+
+#discord .section__description {
+    flex-direction: column-reverse;
+}
+
+footer {
+    padding: 48px 24px;
+}
+
+.footer--logo {
+max-width: 350px;
+}
+
+.footer__link {
+    padding: 0 4px ;
+    font-size: 18px;
+}
+
+.footer__links {
+    margin-bottom: 24px;
+}
+}
